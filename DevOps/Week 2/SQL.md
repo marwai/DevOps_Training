@@ -47,3 +47,8 @@ One-to-one relationship: occurs when there is a unique identifier to another uni
 One-to-many relationships: one customer can have numerous purchases, hence numerous purchase Ids  
 Many-to-many relationships: Student can be assigned to a course and courses to multiple students 
 
+1st Normal Form
+A database is in First Normal form when the following conditions are satified: 
+	• Make everything atomic, data must be presented as small as it can be 
+	• There should be no repeating groups
+For example, a table that records data on a book and its author(s) with the following columns: Book ID, Author 1, Author 2, Author 3 is not in 1NF because authors are repeating the same attribute 
