@@ -51,4 +51,17 @@ Many-to-many relationships: Student can be assigned to a course and courses to m
 A database is in First Normal form when the following conditions are satified: 
 	• Make everything atomic, data must be presented as small as it can be 
 	• There should be no repeating groups
-For example, a table that records data on a book and its author(s) with the following columns: Book ID, Author 1, Author 2, Author 3 is not in 1NF because authors are repeating the same attribute 
+For example, a table that records data on a book and its author(s) with the following columns: Book ID, Author 1, 
+Author 2, Author 3 is not in 1NF because authors are repeating the same attribute 
+
+2nd Normal Form
+A Database is in Second Normal Form when the following conditions are satisfied:
+	• It is in 1NF
+	• All non-key attributes are fully functional dependent on the primary key 
+
+
+3rd normal form
+A database is in 3rd Normal Form when the following conditions are satisfied:
+	• It is in 2NF
+	• There is no transitive functional dependency 
+i.e occurs when non-key column is functionally dependent on another non-key column, which is functionally dependent on the primary key
